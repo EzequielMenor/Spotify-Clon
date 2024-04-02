@@ -36,7 +36,7 @@ export const playlists: Playlist[] = [
     color: colors.rose,
     cover:
       "https://f4.bcbits.com/img/a1435058381_65.jpg",
-    artists: ["Tenno", "xander", "Team Astro"],
+    artists: ["Tenno", "xander", "Astro"],
   },
   {
     id: '4',
