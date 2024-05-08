@@ -1,4 +1,4 @@
-import { usePlayerStore } from "@/store/playerStore"
+import { usePlayerStore } from "../store/playerStore"
 import { useRef, useEffect, useState } from "react"
 import { Slider } from "./Slider"
 
@@ -76,7 +76,7 @@ const SongControl = ({ audio }) => {
       />
 
       <span className="opacity-50 w-12">
-        {duration ?  formatTime(duration) : `0:00`}
+        {duration ? formatTime(duration) : `0:00`}
       </span>
     </div>
   )
